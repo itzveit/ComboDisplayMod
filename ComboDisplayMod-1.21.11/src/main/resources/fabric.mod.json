@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "combo_display_mod",
+  "version": "${version}",
+  "name": "ComboDisplayMod",
+  "description": "Clientseitige Combo-Anzeige mit konfigurierbarem HUD.",
+  "authors": ["ComboDisplayMod"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.combodisplay.ComboDisplayMod"],
+    "modmenu": ["de.combodisplay.ComboModMenu"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cloth-config": ">=21.11.0"
+  },
+  "suggests": {
+    "modmenu": ">=17.0.0"
+  }
+}
